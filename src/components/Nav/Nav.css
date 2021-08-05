@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Londrina+Solid:wght@300&display=swap');
+
+.Nav {
+    background-color: #65524d;
+    padding: 1em;
+    position: relative;
+    margin: 0 auto;
+    font-family: Londrina Solid;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(248,170,48);
+}
+
+.link {
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1.6px;
+    font-size: 1.4rem;
+}
+
+.link:hover {
+    color: rgb(248,170,48);
+    text-decoration: none;
+}
+
+.link a:hover {
+    color: rgb(248,170,48);
+    transition: 0.5s;
+    text-decoration: none;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:600,700&display=swap');
+
+.my-thoughts {
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+    grid-gap: 50px;
+    padding: 40px;
+}
+
+.my-thought-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid lime;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    font-family: Nunito;
+    text-decoration: none;
+    transition: transform 120ms;
+}
+
+.my-thought-container:hover {
+    transform: translateY(5px);
+    box-shadow: 10px 15px 50px 0 rgba(0, 0, 0, 0.09);
+}
+
+.my-thought-content {
+    text-align: center;
+}
+
+.my-thought-link {
+    text-decoration: none;
+
+}
+
+
+

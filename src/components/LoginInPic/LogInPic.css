@@ -1,0 +1,12 @@
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.comic {
+    width: 700px;
+    height: 300px;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 10px;
+}

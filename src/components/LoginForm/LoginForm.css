@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Londrina+Solid:wght@300&display=swap');
+
+.welcome {
+    font-family: Londrina Solid;
+}
+
+.account-form-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.account-header {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 auto 30px auto;
+    position: relative;
+    height: 25px;
+    width: 250px;
+    overflow: hidden;
+    font-family: Nunito;
+}
+.account-form-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.account-form-contents .account {
+    max-width: 200px;
+    max-height: 200px;
+
+}    
+
+.account-form-contents {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    
+}
+
+.account-form-contents > input {
+    border: 0;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 13px;
+    font-family: Nunito, sans-serif;
+    color: #000;
+    border-radius: 5px;
+    outline: none;
+    max-width: 300px;
+}
+
+.account-form-button {
+    border: 0;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    padding: 15px 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    font-family: Nunito, sans-serif;
+    background: #6381e8;
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 13%);
+    transition: all 0.2s ease;
+}
