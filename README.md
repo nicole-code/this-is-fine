@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# "Things are burning down around me, but you got to smile sometimes." - KC Green
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to "This Is Fine", an application where you can take all of the anxious thoughts that are lodged in your brainhole and let us hold them for you. Based on KC Green's comic that took the interwebs by storm, "This Is Fine" uses a cognitive behavioural therapy thought record model to help users recognize unhelpful thought patterns. Users are able to create an account wherein they can create new thought records and keep an index of past records.
 
-## Available Scripts
+<br/>
 
-In the project directory, you can run:
+But, you ask, what separates “This Is Fine” from other anxiety-management apps? Here, we believe that an excellent way to turn your anxiety’s volume down is mindlessness. Yes, you read that correctly - mindlessness. Users can visit our Mindlessness for Dad jokes and random Kanye West quotes. Stay tuned for more mindless fun!
 
-### `npm start`
+<br/> 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies Used:
+* React
+* Node JS
+* Express JS
+* MongoDB
+* icanhazdadjoke API
+* Kanye Rest API
+* CSS
+* Google Fonts
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Links:
+* [This Is Fine - The App](https://thisisfineapp.herokuapp.com/)
+* [Team Trello Board](https://trello.com/b/9HqMcfM0/project-4-this-is-fine)
+* [ERD](https://lucid.app/lucidchart/invitations/accept/inv_50aaeb02-e66f-4f3a-aab9-438cbba66cf8)
 
-### `npm test`
+## Contributors:
+* [Nicole Stawikowski](https://github.com/nicole-code)
+* [Krista Pura](https://github.com/k-pura)
+* [Zaria Flanagan](https://github.com/zarialea)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## What's Next For "This Is Fine":
+* Introducing further APIs for our Mindlessness corner
+* Give users the ability to edit thought records
+* A quiz for users to gage their anxiety levels 
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
