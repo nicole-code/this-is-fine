@@ -2,11 +2,10 @@ import { Component } from 'react';
 import React from 'react';
 import {Link} from 'react-router-dom';
 import './MyThoughts.css';
-
 export default class MyThoughts extends Component {
   state = {
     thoughts: [],
-  }  
+  }
   getThoughts = async () => {
     let jwt = localStorage.getItem('token')
     let fetchThoughtDataResponse = await fetch('/api/thoughts/' + this.props.user._id, {headers: {'Authorization': 'Bearer ' + jwt}})
@@ -15,7 +14,7 @@ export default class MyThoughts extends Component {
     console.log("get thoughts", thoughtsData)
     this.setState({thoughts: thoughtsData});
   };
-  //getOne = asyync (incoming_thought_id) => 
+  //getOne = asyync (incoming_thought_id) =>
   //thoughts/the id
   async componentDidMount() {
     try {
@@ -27,9 +26,9 @@ export default class MyThoughts extends Component {
   render() {
     return (
      <div className="my-thought">
-        <h1>All of my thoughts</h1>
+        <h1 className="my-thought-header">My Thoughts</h1>
           <div className="my-thoughts">
-              {this.state.thoughts.map(t => 
+              {this.state.thoughts.map(t =>
               <div class="my-thought-container">
               <div class="my-thought-content">
               <Link class="my-thought-link" to={`/thoughts/${t._id}`} activeClassName="current">{t.entryName} <br/> {t.emoji}</Link>
@@ -38,7 +37,6 @@ export default class MyThoughts extends Component {
       )}
   </div>
 </div>
-    
     )
   }
 }

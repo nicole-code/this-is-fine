@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:600,700&display=swap');
-
 .my-thoughts {
     display: grid;
     grid-template-rows: 200px 200px 200px;
@@ -8,12 +7,20 @@
     grid-gap: 50px;
     padding: 40px;
 }
-
+.my-thought-header {
+    text-align: center;
+    padding: 50px;
+    font-family: Londrina Solid;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 0.5px black;
+}
 .my-thought-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 4px solid lime;
+    border: 4px solid #B5EF8A;
     border-radius: 10px;
     background-color: white;
     padding: 20px;
@@ -21,20 +28,14 @@
     text-decoration: none;
     transition: transform 120ms;
 }
-
 .my-thought-container:hover {
     transform: translateY(5px);
     box-shadow: 10px 15px 50px 0 rgba(0, 0, 0, 0.09);
 }
-
 .my-thought-content {
     text-align: center;
 }
-
-.my-thought-link {
+.my-thought-link:link, .my-thought-link:visited {
     text-decoration: none;
-
+    color: black;
 }
-
-
-
