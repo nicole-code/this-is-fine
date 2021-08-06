@@ -1,12 +1,19 @@
 import { Component } from 'react';
 import React from 'react';
 import './About.css';
+import AboutPicture from '../../components/AboutPic/AboutPic';
+import aboutPic from '../../images/thisIsFineLogo.png';
 
 export default class About extends React.Component {
     render(){
         return(
         <div className="aboutMain">
             
+            <div className="logo">
+            <AboutPicture pic={aboutPic} />
+            </div>
+
+            <div className="about-text">
             <h1>..do you ever feel like you're engulfed in a steaming dumpster 
                 fire wide-eyed with an oversized grin on your face wondering 
                 just how you got here?</h1>
@@ -27,6 +34,8 @@ export default class About extends React.Component {
                 <br/>
             <h3>After you’ve completed your thought record, visit our Mindlessness section to switch your mind off and turn the laughs on. </h3>    
             </div>
+
+        </div>
            
 
         )
