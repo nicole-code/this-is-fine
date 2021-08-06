@@ -161,15 +161,14 @@ export default class NewThoughtRecordForm extends Component {
                         </li>
 
                         <br />
-                        <br />
-                    <div className="thought-save-button">
-                        <button class="thought-save-form-button">Save This Record</button>
-                    </div>   
 
+                        <div className="thought-save-button">
+                        <button class="save-button">Save This Record</button>
+                        </div>   
+                        <br />
                         </ul>
 
                     </form>
-                    <br />
                 </div>
             </div>
     )

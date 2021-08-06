@@ -54,18 +54,36 @@ export default class Mindlessness extends React.Component {
         render(){
             return(
             <div className="mindless">
-                <button class="joke-onlick-button" onClick={()=>this.updateJoke()}>Click here for a new dad joke!</button>
+                <div className="mindless-container">
+                <h1 className="mindless-header">"Pay No Mind"</h1>
+                
+                <h3 className="mindless-info">
+                Welcome to the Mindlessness page.
+                <br />
+                Here you can generate random quotes to take your 
+                <br />
+                mind off of those anxious thoughts!</h3>
+                </div>
+                <div class="mindless-content">
+                <button class="joke-button" onClick={()=>this.updateJoke()}>Click here for a new dad joke!</button>
+                <br />
+                <br />
                     <div className="joke-container">
                         <div className="joke-content">
                             <p>{this.state.joke}</p>
                     </div>
                 </div>
                 <br />
-                <button className="ye-onclick-button" onClick={()=>this.updateYe()}>Rando-Yeez Quote</button>
+                <br />
+                <br />
+                <button className="ye-button" onClick={()=>this.updateYe()}>Rando-Yeez Quote</button>
+                <br />
+                <br />
                     <div className="ye-container">
                         <div className="ye-content">
                             <p>{this.state.quote}</p>
                     </div>
+                </div>
                 </div>
                 <br />
             <br/>
