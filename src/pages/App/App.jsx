@@ -73,6 +73,7 @@ export default class App extends Component {
             :
           <div>
           <LogInPic pic={comic} />
+          <br />
           <AuthPage setUserInState={this.setUserInState}/>
           </div>
         }  
