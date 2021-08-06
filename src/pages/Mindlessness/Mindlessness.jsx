@@ -50,7 +50,7 @@ export default class Mindlessness extends React.Component {
           this.setState ({
               joke:  data.joke
           });
-      }
+      };
         render(){
             return(
             <div className="mindless">

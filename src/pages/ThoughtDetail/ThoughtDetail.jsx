@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import React from 'react';
 import './ThoughtDetail.css';
+import hole from '../../images/hole.png';
 
 export default class ThoughtDetail extends Component {
   state = {
