@@ -1,18 +1,16 @@
 import { Component } from 'react';
 import React from 'react';
-
+import './Mindlessness.css';
 export default class Mindlessness extends React.Component {
-
     state = {
         joke: "",
         quote: "",
     }
-
     async fetchJoke() {
         try {
             console.log("i am inside the fetch")
             const response = await fetch("http://icanhazdadjoke.com", {
-                headers: {  
+                headers: {
                   Accept: "application/json",
                 },
               });
@@ -24,7 +22,6 @@ export default class Mindlessness extends React.Component {
           console.error('ERROR:', err) // <-- log if error
         }
       };
-
      async fetchYe() {
         try {
             console.log("inside affirmation fetch")
@@ -41,16 +38,12 @@ export default class Mindlessness extends React.Component {
             console.error('ERROR:', err) // <-- log if error
         }
      };
-     
     updateYe = async (incoming_ye) => {
         let affirmData = await this.fetchYe()
         this.setState({
             quote: affirmData.quote
         })
-
     }
-
-
     updateJoke = async (incoming_joke) => {
           let data = await this.fetchJoke()
           console.log("look over here for fetching joke", data)
@@ -58,28 +51,25 @@ export default class Mindlessness extends React.Component {
               joke:  data.joke
           });
       }
-
-
         render(){
             return(
             <div className="mindless">
-                
+                <button class="joke-onlick-button" onClick={()=>this.updateJoke()}>Click here for a new dad joke!</button>
+                    <div className="joke-container">
+                        <div className="joke-content">
+                            <p>{this.state.joke}</p>
+                    </div>
+                </div>
                 <br />
+                <button className="ye-onclick-button" onClick={()=>this.updateYe()}>Rando-Yeez Quote</button>
+                    <div className="ye-container">
+                        <div className="ye-content">
+                            <p>{this.state.quote}</p>
+                    </div>
+                </div>
                 <br />
-                <button onClick={()=>this.updateJoke()}>Click here for a new dad joke!</button>
-                <button onClick={()=>this.updateYe()}>Rando-Yeez Quote</button>
-                <br />
-                <br/>
-                
-                <p>
-                  {this.state.joke}
-                  <br />
-                  {this.state.quote}
-                  </p>
-
-            </div>
+            <br/>
+        </div>
             )
         }
-        
-
 }

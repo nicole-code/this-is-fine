@@ -1,0 +1,28 @@
+.mindless {
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+}
+.joke-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid lime;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    font-family: Nunito;
+    text-decoration: none;
+}
+.ye-container {
+    display: flex;
+    grid-gap: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid lime;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    font-family: Nunito;
+    text-decoration: none;
+}
