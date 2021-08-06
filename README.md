@@ -8,6 +8,7 @@ But, you ask, what separates “This Is Fine” from other anxiety-management ap
 
 ---
 
+![pic](https://i.ibb.co/q1CkwxG/login.png)
 ![pic](https://i.ibb.co/QDDSF5R/about.png)
 ![pic](https://i.ibb.co/d6yCZYN/mythoughts.png)
 ![pic](https://i.ibb.co/jfVgjpG/newthought.png)
