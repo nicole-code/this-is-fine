@@ -2,6 +2,7 @@ import { Component } from 'react';
 import React from 'react';
 import './ThoughtDetail.css';
 import hole from '../../images/hole.png';
+import HolePic from '../../components/HolePic/HolePic';
 
 export default class ThoughtDetail extends Component {
   state = {
@@ -61,68 +62,84 @@ export default class ThoughtDetail extends Component {
              &nbsp;
               <br />
               <br />
-          <div className="thought-detail-contents">
-            <div class="lines"></div>
-              <li className="thought-detail-entry-info">{this.state.oneThought.entryName}</li>
-              <ul className="list">
-
-              <br />
-              <br />
-
-              <li>What emoji resonantes with you right now?</li>
-              <li className="thought-info">{this.state.oneThought.emoji}</li>
-
-              <br />
-              <br />
-
-              <li>What was the situation?</li>
-              <li className="thought-info">{this.state.oneThought.situation}</li>
-
-              <br />
-              <br />
-
-              <li>Describe your emotions or feelings:</li>
-              <li className="thought-info">{this.state.oneThought.emotion}</li>
-
-              <br />
-              <br />
-
-              <li>Automatic thoughts:</li>
-              <li className="thought-info">{this.state.oneThought.automaticThoughts}</li>
-
-              <br />
-              <br />
-
-              <li>Evidence supporting those thoughts:</li>
-              <li className="thought-info">{this.state.oneThought.evidenceSupport}</li>
-
-              <br />
-              <br />
-
-              <li>Evidence against those thoughts:</li>
-              <li className="thought-info">{this.state.oneThought.evidenceAgainst}</li>
-
-              <br />
-              <br />
-
-              <li>New balanced thought:</li>
-              <li className="thought-info">{this.state.oneThought.balanceThought}</li>
-
-              <br />
-              <br />
-
-              <li>How do you feel now?</li>
-              <li className="thought-info">{this.state.oneThought.feelNow}</li>
-
-              </ul>
-              <div className="thought-detail-delete-button">
-                <button className="delete-button" onClick={this.handleDelete}>Delete this thought record</button>
-              </div>
+            <div className="hole-container">
+            <div className="holeone">
+              <HolePic pic={hole} /> 
             </div>
-          </div>
+            <div className="holetwo">
+              <HolePic pic={hole} /> 
+            </div>
+            <div className="holethree">
+              <HolePic pic={hole} /> 
+            </div>
+            </div>         
+              <div className="thought-detail-contents">
+                     
+                <div class="lines"></div>
+                                 
+                <li className="thought-detail-entry-info">{this.state.oneThought.entryName}</li>
+                <ul className="list">
 
-            <br />
-        </div>
+                <br />
+                <br />
+
+                <li>What emoji resonantes with you right now?</li>
+                <li className="thought-info">{this.state.oneThought.emoji}</li>
+
+                <br />
+                <br />
+
+                <li>What was the situation?</li>
+                <li className="thought-info">{this.state.oneThought.situation}</li>
+
+                <br />
+                <br />
+
+                <li>Describe your emotions or feelings:</li>
+                <li className="thought-info">{this.state.oneThought.emotion}</li>
+
+                <br />
+                <br />
+
+                <li>Automatic thoughts:</li>
+                <li className="thought-info">{this.state.oneThought.automaticThoughts}</li>
+
+                <br />
+                <br />
+
+                <li>Evidence supporting those thoughts:</li>
+                <li className="thought-info">{this.state.oneThought.evidenceSupport}</li>
+
+                <br />
+                <br />
+
+                <li>Evidence against those thoughts:</li>
+                <li className="thought-info">{this.state.oneThought.evidenceAgainst}</li>
+
+                <br />
+                <br />
+
+                <li>New balanced thought:</li>
+                <li className="thought-info">{this.state.oneThought.balanceThought}</li>
+
+                <br />
+                <br />
+
+                <li>How do you feel now?</li>
+                <li className="thought-info">{this.state.oneThought.feelNow}</li>
+
+                </ul>
+              
+                <div className="thought-detail-delete-button">
+                  <button className="delete-button" onClick={this.handleDelete}>Delete this thought record</button>
+                </div>
+            
+              </div>
+          
+          </div>
+             
+          <br />
+      </div>
     )
   }
 }
