@@ -19,7 +19,7 @@ But, you ask, what separates “This Is Fine” from other anxiety-management ap
 * Google Fonts
 
 ## Links:
-* [This Is Fine - The App](https://thisisfineapp.herokuapp.com/)
+* [This Is Fine - The App](https://this-is-fine.herokuapp.com)
 * [Team Trello Board](https://trello.com/b/9HqMcfM0/project-4-this-is-fine)
 * [ERD](https://lucid.app/lucidchart/invitations/accept/inv_50aaeb02-e66f-4f3a-aab9-438cbba66cf8)
 
