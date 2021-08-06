@@ -114,11 +114,12 @@ export default class ThoughtDetail extends Component {
               <li className="thought-info">{this.state.oneThought.feelNow}</li>
 
               </ul>
+              <div className="thought-detail-delete-button">
+                <button className="delete-button" onClick={this.handleDelete}>Delete this thought record</button>
+              </div>
             </div>
           </div>
-              <div className="thought-detail-delete-button">
-              <button className="delete-button" onClick={this.handleDelete}>Delete this thought record</button>
-              </div>
+
             <br />
         </div>
     )
