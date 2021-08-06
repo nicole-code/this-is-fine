@@ -1,5 +1,7 @@
 import { Component } from 'react';
 import './NewThought.css';
+import HolePic from '../../components/HolePic/HolePic';
+import hole from '../../images/hole.png'
 // import history from "../../history";
 
 export default class NewThoughtRecordForm extends Component {
@@ -71,9 +73,20 @@ export default class NewThoughtRecordForm extends Component {
         return (
             <div class="thought-container">
                 <h1 class="thought-header">New Thought Record</h1>
-
-                    <div class="thought-content">
-                        <div className="lines"></div>
+                    <div class="thought-content-th">
+                    <div className="hole-container-th">
+                    <div className="holeone-th">
+                        <HolePic pic={hole} /> 
+                    </div>
+                    <div className="holetwo-th">
+                        <HolePic pic={hole} /> 
+                    </div>
+                    <div className="holethree-th">
+                        <HolePic pic={hole} /> 
+                    </div>
+                </div>
+                    
+                        <div className="lines-th"></div>
 
                     <form onSubmit={this.handleSubmit} class="thought-form">
                         
@@ -170,6 +183,8 @@ export default class NewThoughtRecordForm extends Component {
 
                     </form>
                 </div>
+                <br />
+                <br />
             </div>
     )
   }

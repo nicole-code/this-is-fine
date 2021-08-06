@@ -4,6 +4,7 @@
 }
 .thought-header {
     text-align: center;
+    margin-left: 20px;
     padding: 50px;
     font-family: Londrina Solid;
     font-size: 50px;
@@ -11,9 +12,10 @@
     letter-spacing: 2px;
     -webkit-text-stroke: 0.5px black;
 }
-.thought-content {
+.thought-content-th {
     background-color :#f5f5f5;
-    width: 550px;
+    width: 599px;
+    margin-bottom: 25px;
     margin: 0 auto;
     padding: 0;
     align-items: center;
@@ -26,6 +28,7 @@
     padding: 25px;
 }
 .thought-entry-title {
+    margin-top: -10px;
     padding: 10px;
     list-style: none;
     font-size: 20px;
@@ -44,13 +47,15 @@ textarea {
 select .thought-info {
     margin: 0 0 0 20px;
 }
-.list {
+.list-th {
+    margin-left: -60px;
+    padding-left: 60px;
     color: #555;
     font-size: 15px;
     padding: 0 !important;
-    width: 500px;
+    width: 600px;
 }
-.list li {
+.list-th li {
     list-style: none;
     border-bottom: 1px dotted #ccc;
     text-indent: 20px;
@@ -66,18 +71,43 @@ textarea {
     font-family: Nunito;
     text-indent: 2px;
 }
-.lines {
+.lines-th {
     border-left: 1px solid #FFAA9F;
     border-right: 1px solid #FFAA9F;
     width: 5px;
     float: left;
-    height: 1165px;
+    height: 1250px;
     margin-left: 30px;
   }
+
+.hole-container-th {
+    padding-left: 8px;
+    padding-right: 10px;
+    float: left;
+    height: 1250px;
+    width: 1px;
+}
+
+.holeone-th {
+    padding-top: 32px;
+    width: 40rem;
+}
+
+.holetwo-th {
+    width: 40rem;
+    padding-top: 518px;
+}
+
+.holethree-th {
+    align: bottom;
+    width: 40rem;
+    padding-top: 565px;
+}
+
 .thought-save-button {
     justify-content: center;
     display: flex;
-    padding-top: 40px;
+    padding-top: 30px;
 }
 .save-button {
     box-shadow: inset 0px 1px 0px 0px #FFFFFF;
