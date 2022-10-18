@@ -60,7 +60,7 @@ export default class Nav extends React.Component {
             &nbsp;&nbsp;&nbsp;
             <Link class="link" exact to='/newthought'>new thought</Link>
             &nbsp;&nbsp;&nbsp;
-            <Link class="link" exact to='/resources'>rescources</Link>
+            <Link class="link" exact to='/resources'>resources</Link>
             &nbsp;&nbsp;&nbsp;
             <Link class="link" exact to='/mindlessness'>mindlessness</Link>
             &nbsp;&nbsp;&nbsp;
